@@ -98,6 +98,10 @@ PRODUCT_PACKAGES += \
     MiuiCamera \
     XiaomiParts
 
+# Camera permissions
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/MiuiCamera/miui.camera.permissions.xml:system/etc/permissions/miui.camera.permissions.xml
+
 # Remove packages
 PRODUCT_PACKAGES += \
     Remove
