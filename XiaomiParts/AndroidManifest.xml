@@ -21,16 +21,12 @@
             android:enabled="true"
             android:label="@string/advanced_settings"
             android:icon="@drawable/ic_mi">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
-            </intent-filter>
+                <intent-filter android:priority="-3" >
+                    <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
                 <meta-data android:name="com.android.settings.category"
-                           android:value="com.android.settings.category.ia.homepage"/>
+                           android:value="com.android.settings.category.ia.system" />
                 <meta-data android:name="com.android.settings.summary"
                            android:resource="@string/advanced_settings_summary"/>
         </activity>
