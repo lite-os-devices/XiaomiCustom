@@ -109,3 +109,6 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.xiaomi_custom.rc
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.eis.enable=1
