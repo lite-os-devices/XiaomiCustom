@@ -337,5 +337,5 @@
    <bool name="is_support_tele_asd_night">true</bool>
    <bool name="is_support_optical_zoom">true</bool>
     <!-- whether this device is Android one -->
-    <bool name="is_android_one_device">false</bool>
+    <bool name="is_android_one_device">true</bool>
 </features>
