@@ -111,4 +111,5 @@ PRODUCT_PACKAGES += \
     init.xiaomi_custom.rc
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.eis.enable=1
+    persist.camera.eis.enable=1 \
+    camera.disable_shutter_sound.packagelist=com.android.camera
