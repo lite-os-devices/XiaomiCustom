@@ -102,10 +102,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/MiuiCamera/miui.camera.permissions.xml:system/etc/permissions/miui.camera.permissions.xml
 
-# Remove packages
-PRODUCT_PACKAGES += \
-    Remove
-
 # Init
 PRODUCT_PACKAGES += \
     init.xiaomi_custom.rc
