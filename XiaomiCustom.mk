@@ -108,4 +108,4 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.eis.enable=1 \
-    camera.disable_shutter_sound.packagelist=com.android.camera
+    camera.shutter_sound.blacklist=com.android.camera
