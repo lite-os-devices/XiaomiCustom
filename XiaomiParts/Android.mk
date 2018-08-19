@@ -6,6 +6,7 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_PACKAGE_NAME := XiaomiParts
 LOCAL_REQUIRED_MODULES := DeviceSettings
 LOCAL_CERTIFICATE := platform
+LOCAL_PRIVATE_PLATFORM_APIS := true
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_AAPT_FLAGS := --auto-add-overlay
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
